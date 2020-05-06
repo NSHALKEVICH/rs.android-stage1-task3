@@ -47,4 +47,9 @@ class ArrayProductCalculatorTests {
         val sum = calculator.maxProductOf(4, arrayOf(1, 2, 3))
         assertEquals(6, sum) // 1 * 2 * 3, if number of items in array is less than expected, calculate all the values from array
     }
+    //@Test
+    //fun test8() {
+       // val sum = calculator.maxProductOf(3, arrayOf( -10, -10, -5, -1, 7, -5, -1))
+        //assertEquals(700, sum) // -10 * -10 * 7
+    //}
 }

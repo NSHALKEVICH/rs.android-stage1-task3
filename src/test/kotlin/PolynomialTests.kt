@@ -29,4 +29,10 @@ class PolynomialTests {
         val result = converter.convertToStringFrom(arrayOf())
         assertEquals(null, result)
     }
+    /*@Test
+    fun testConvertToString4() {
+        val result = converter.convertToStringFrom(arrayOf(2, 1, 78))
+        assertEquals("2x^2 + x + 78", result)
+    }*/
+
 }
